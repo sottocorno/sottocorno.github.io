@@ -39,7 +39,7 @@ body {
 	margin-bottom: 30px;
 }
 .h2 {
-	background-color: rgb(4, 96, 150);
+	background-color: rgb(86, 116, 133);
     
 }
 
@@ -67,7 +67,7 @@ body {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #6f9671;
   }
   
   /* Style the container/contact section */
@@ -123,5 +123,19 @@ body {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #b8b7b7;
+}
+
+.btn {
+  background-color: rgb(172, 173, 174);
+  border: none;
+  color: rgb(123, 121, 121);
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(147, 147, 150);
 }
