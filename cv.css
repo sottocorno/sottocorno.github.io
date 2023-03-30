@@ -8,7 +8,7 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: rgb(33, 121, 210);
+	background-color: rgb(56, 60, 63);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,20 +17,20 @@ body {
 	width: 70%;
 	max-width: 1000px;
 	min-height: 100px;
-	background-color: rgb(231, 245, 231);
+	background-color: rgb(7, 7, 7);
 	margin: 0px;
 	display: grid;
 	grid-template-columns: 2fr 4fr;
 }
 .left {
 	position: initial;
-	background-color: rgb(126, 219, 231);
+	background-color: rgb(130, 132, 132);
 	padding: 20px;
 
 }
 .right {
 	position: initial;
-	background-color: rgb(136, 201, 207);
+	background-color: rgb(238, 244, 244);
 	padding: 20px;
 
 }
@@ -93,9 +93,35 @@ body {
   }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {}
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
-  }
+
+    /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
